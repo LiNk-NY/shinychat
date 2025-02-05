@@ -1,5 +1,7 @@
 {
-  "image": "bioconductor/bioconductor_docker:latest",
+  "image": "bioconductor/bioconductor_docker:devel",
   "features": {
-  }
+  },
+  "forwardPorts": [8787],
+  "remoteUser": "rstudio"
 }
