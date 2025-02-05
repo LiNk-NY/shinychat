@@ -3,5 +3,6 @@
   "features": {
   },
   "forwardPorts": [8787],
-  "remoteUser": "rstudio"
+  "remoteUser": "rstudio",
+  "postStartCommand": "rserver --www-port=8787"
 }
