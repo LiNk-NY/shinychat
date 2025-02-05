@@ -3,6 +3,13 @@
   "features": {
   },
   "forwardPorts": [8787],
+  "portsAttributes": {
+		"8787": {
+			"label": "Rstudio",
+			"requireLocalPort": true,
+			"onAutoForward": "ignore"
+		}
+  },
+  "postAttachCommand": "sudo rstudio-server start",
   "remoteUser": "rstudio",
-  "postStartCommand": "rserver --www-port=8787"
 }
