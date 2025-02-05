@@ -1,0 +1,5 @@
+{
+  "image": "bioconductor/bioconductor_docker:latest",
+  "features": {
+  }
+}
